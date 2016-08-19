@@ -1,0 +1,40 @@
+.navbar.center .navbar-collapse {
+    text-align: center;
+}
+
+.navbar.center .navbar-collapse .nav {
+    float: none;
+    display:inline-block;
+    margin-bottom: -6px;
+}
+
+.navbar-custom{
+	min-height: 70px;
+	background-color: #111;
+}
+
+.nav>li{
+	display: inline-block;	
+}
+
+.nav>li>a{
+	min-height: 45px;	
+	padding: 0px;
+	margin: 25px 25px 0px 25px;
+
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.nav>li:hover, .nav>li>a:hover{
+	background-color: #222222;
+}
+
+.nav>li>a:focus {
+	background-color: transparent;
+}
+
+.active {
+	background-color: #df4244;
+}
