@@ -4,13 +4,16 @@
 
 .navbar.center .navbar-collapse .nav {
     float: none;
-    display:inline-block;
-    margin-bottom: -6px;
+    display:inline-block;   
 }
 
 .navbar-custom{
 	min-height: 70px;
 	background-color: #111;
+}
+
+.nav.navbar-nav{
+	margin-bottom: -6px;
 }
 
 .nav>li{
@@ -40,7 +43,8 @@
 }
 
 .active {
-	background-color: #df4244;
+	background-color: #ec494c;
+	border-bottom: 1px solid white;
 }
 
 #intro{
