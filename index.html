@@ -9,8 +9,8 @@
     <meta name="description" content="personal website">    
     
     <title>Saswata Gupta</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Alef|Cormorant+Garamond:600|Montserrat:400,700|Open+Sans:300" rel="stylesheet">
     
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" > 
@@ -19,7 +19,7 @@
 
   <body>
     <!-- navigation bar -->
-    <nav id="navbar" class="navbar navbar-custom navbar-fixed-top center" >
+    <nav id="navbar" class="navbar navbar-custom navbar-fixed-top center"  style="height: 71px;border-bottom: 1px solid white;">
       <div class="navbar-header">
           <!-- mobile users nav button -->
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-navbar-collapse">            
@@ -30,7 +30,7 @@
           <a id="mobile-menu" class="navbar-brand hidden-md hidden-lg" href="#">Menu</a>
         </div>
         
-        <div class="collapse navbar-collapse" id="mobile-navbar-collapse" style="border-bottom: 1px solid white; margin-bottom: -1px;">
+        <div class="collapse navbar-collapse" id="mobile-navbar-collapse">
           <ul class="nav navbar-nav" id="navbar-items">
             <li id="about-btn" class="active"> <a href="#">ABOUT</a> </li>
             <li id="projects-btn"> <a href="#">PROJECTS</a> </li>             
@@ -43,11 +43,87 @@
     <!-- intro section -->
     <div id="intro">
       <div class="container">
-        <div class="row"> <img id="logo-pic" src="assets/img/mypic.jpg"> </div>
-        <div class="row"> <img id="logo-txt" src="assets/img/logo_text.png"> </div>
+        <div class="row"> <img id="logo-pic" class="center-block" src="assets/img/mypic.jpg"> </div>
+        <div class="row"> <img id="logo-txt" class="center-block" src="assets/img/logo_text.png"> </div>
       </div>            
     </div>
 
+    <!-- about section -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+
+          <div id="about-body" class="col-md-9 col-md-offset-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien metus, efficitur at erat et, sagittis vulputate enim. Integer nec justo sed ipsum feugiat condimentum. Nulla erat enim, cursus quis ex quis, eleifend aliquet justo. Quisque vel sollicitudin nibh, vel tincidunt eros. Nam id accumsan urna, feugiat malesuada nibh. Integer venenatis sagittis elit eget vestibulum. Donec tellus nisl, consequat bibendum sem quis, interdum fringilla sem. Suspendisse risus turpis, molestie vitae tincidunt eu, vehicula id lorem. Duis et nisl arcu. Mauris eget mattis ex, a rutrum elit. Cras accumsan placerat sapien, quis vehicula urna. Etiam scelerisque laoreet dolor, ac pellentesque purus.
+          </div>  
+
+          <div id="about-links" class="col-md-2">
+            <div> 
+              <a class="btn btn-custom btn-lg" href="https://github.com/sas5580" target="_blank" >
+                  <i class="fa fa-github-square fa-2x"></i>
+                  <span>GitHub</span>
+              </a>             
+            </div>
+
+            <div>
+              <a class="btn btn-custom btn-lg" href="https://ca.linkedin.com/in/saswatagupta" target="_blank">
+                  <i class="fa fa-linkedin-square fa-2x"></i>
+                  <span>LinkedIn</span>
+              </a>            
+            </div>
+          </div> 
+
+        </div>
+      </div>      
+    </div>
+
+    <!-- projects -->
+    <div id="projects" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#projects" data-slide-to="0" class="active"></li>
+        <li data-target="#projects" data-slide-to="1"></li>
+        <li data-target="#projects" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+
+        <div class="item active">
+          <img src="assets/img/art-bg.jpg" alt="...">
+          <div class="carousel-caption">
+            <h3>Proejct 1</h3>
+            <p>Caption 1</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="assets/img/game-bg.jpg" alt="...">
+          <div class="carousel-caption">
+            <h3>Proejct 2</h3>
+            <p>Caption 2</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="assets/img/science-bg.jpg" alt="...">
+          <div class="carousel-caption">
+            <h3>Proejct 3</h3>
+            <p>Caption 3</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#projects" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#projects" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
     
     <script src="assets/js/jquery.min.js"></script>    
     <script src="assets/js/bootstrap.min.js"></script>

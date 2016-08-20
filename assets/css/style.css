@@ -1,3 +1,9 @@
+*, a{	
+	font-size: 25px;
+	color: white;
+	text-decoration:none;
+}
+
 .navbar.center .navbar-collapse {
     text-align: center;
 }
@@ -24,10 +30,9 @@
 	min-height: 45px;	
 	padding: 0px;
 	margin: 25px 25px 0px 25px;
-
 	color: #fff;
-	font-size: 30px;
 	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;	
 }
 
 .icon-bar{
@@ -43,15 +48,15 @@
 }
 
 .active {
-	background-color: #ec494c;
-	border-bottom: 1px solid white;
+	background-color: #ec494c;	
 }
 
 #intro{
-	min-height: 500px;
+	min-height: 600px;
 	margin-top: 70px;
+	padding-top: 50px;
 	background-color: #ec494c;
-	background-image: url("../img/bg.jpg");
+	background-image: url("../img/computer-bg.jpg");
 	background-repeat: no-repeat;
 	background-size: 1237.5px 930px;
 	background-position: 10% 50%;
@@ -64,20 +69,64 @@
 	padding-top: 30px;
 }
 
-#intro>div>div>img{	
-	display: block;
-	margin: auto;	
-}
-
 #logo-pic{
 	height: 250px;
 	-webkit-border-radius: 50px;	
 	-moz-border-radius: 50px;
-	-webkit-box-shadow: 0 0 100px;
-	-moz-box-shadow: 0 0 100px;
+	-webkit-box-shadow: 0 0 100px black;
+	-moz-box-shadow: 0 0 100px black;
 }
 
-#logo-txt{
-	height: 175px;
-	
+#logo-txt{	
+	height: 175px;	
+	padding-top: 20px;
+}
+
+#about{
+	background-color: #323232;
+	min-height: 300px;
+	padding: 40px 0px 40px 0px;
+}
+
+#about-body{
+	text-align: center;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 20px;
+}
+
+#about-links>div{
+	padding-bottom: 40px;
+	font-family: 'Open Sans', sans-serif;	
+}
+
+.btn-custom{
+	background-color: transparent;
+	border: 1px solid #ec494c;
+	color: white;
+	min-width: 180px;	
+	transition: all 0.5s ease 0s;
+}
+
+.btn-custom:hover, .btn-custom:focus{
+	background-color: #ec494c;	
+}
+
+
+.fa-2x{
+	color: white; 
+	padding-right:15px;	
+}
+
+.carousel{
+	height: 700px;
+	background-color: #ec494c;
+}
+
+.carousel-inner, .item, .item img {
+	height: 100%;
+	overflow: hidden;	
+}
+
+.item img {
+	margin-top: -150px;	
 }
