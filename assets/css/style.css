@@ -4,6 +4,12 @@
 	transition: all 0.5s ease 0s;
 }
 
+*::selection {
+    background: #df4244;
+    color: #fff;
+    text-shadow: none;
+}
+
 .navbar.center .navbar-collapse {
     text-align: center;
 }
@@ -155,4 +161,118 @@
 	color: #ec494c !important;	
 	-webkit-box-shadow: 0 0 80px black;
 	-moz-box-shadow: 0 0 80px black;
+}
+
+#example *{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;	
+}
+
+#example h3{
+	color: #000;
+	font: 20px 'Cormorant Garamond', serif;
+	font-style: italic;
+}
+
+#example h1{
+	color: #df4244;
+	text-transform: uppercase;
+	text-shadow: 0 1px 10px rgba(0,0,0,.8);	
+	font-size: 60px;
+	width: auto;
+	margin-top: 40px;
+	margin-bottom: 30px;
+
+	position: relative;    
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+}
+
+#example h1:before, #example h1:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 5px;
+    content: '\a0';
+    background-color: #df4244;
+}
+
+#example h1:before {
+    margin-left: -50%;
+    text-align: right;
+}
+
+
+#art{
+	display: block;
+	max-width: 720px;
+	min-width: 500px;
+	width: 60%;
+	height: auto;
+
+	-webkit-box-shadow: 0 0 100px black;
+	-moz-box-shadow: 0 0 100px black;
+}
+
+.btn-art{
+	margin-top: 40px;
+	margin-bottom: 50px;
+	background: #ec494c;
+	max-width: 200px;
+	font-size: 30px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;		
+}
+
+.btn-art:hover, .btn-art:focus{
+	color: #fff;
+	-webkit-box-shadow: 0 0 50px #df4244;
+	-moz-box-shadow: 0 0 50px #df4244;
+}
+
+#contact {
+	background-color: #161616;
+	height: 350px;
+	padding-bottom: 20px;
+	text-shadow: 0 1px 2px rgba(255,255,255,.6);
+}
+
+#contact h2{
+	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 40px;
+	padding-top: 50px;
+}
+
+#contact h4{
+	padding-top: 20px;
+	padding-bottom: 30px;
+	font-size: 18px;
+}
+
+#contact a{	
+	width: 530px;
+}
+
+#contact h1{
+	color: #df4244;
+	text-shadow: 0 1px 3px rgba(263, 73, 76,.8);	
+	padding-bottom: 3px;	
+	font-size: 40px;
+	width: 530px;	
+	margin: auto;
+}
+
+#contact a:hover, #contact a:active{
+	text-decoration: none;
+
+}
+
+#contact h1:hover, #contact h1:active{
+	color: #df4244;	
+	border-bottom: 2px solid rgb(263, 73, 76);
+	transition: none;
 }
