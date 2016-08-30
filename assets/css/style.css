@@ -53,6 +53,12 @@
 	background-color: transparent;
 }
 
+#intro-btn a img{
+	height: 62px;
+	width: auto;
+	margin-top: -20px;
+}
+
 .active {
 	background-color: #ec494c;	
 }
@@ -130,6 +136,11 @@
 .carousel-inner, .item, .item img {
 	height: 100%;
 	overflow: hidden;	
+}
+
+.carousel-indicators>li{
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 .item img {
@@ -236,7 +247,7 @@
 
 #contact {
 	background-color: #161616;
-	height: 350px;
+	height: 500px;
 	padding-bottom: 20px;
 	text-shadow: 0 1px 2px rgba(255,255,255,.6);
 }
@@ -244,7 +255,7 @@
 #contact h2{
 	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 40px;
-	padding-top: 50px;
+	padding-top: 100px;
 }
 
 #contact h4{

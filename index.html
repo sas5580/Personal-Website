@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta name="author" content="Saswata Gupta">
@@ -33,10 +32,11 @@
         
         <div class="collapse navbar-collapse" id="mobile-navbar-collapse">
           <ul class="nav navbar-nav" id="navbar-items">
-            <li id="about-btn" class="active"> <a href="#">ABOUT</a> </li>
-            <li id="projects-btn"> <a href="#">PROJECTS</a> </li>             
-            <li id="resume-btn"> <a href="#">RESUME</a> </li> 
-            <li id="contact-btn"> <a href="#">CONTACT</a> </li>                         
+            <li id="about-btn" data-id="#about">        <a href="#">ABOUT</a>     </li>
+            <li id="projects-btn" data-id="#projects">  <a href="#">PORTFOLIO</a> </li> 
+            <li id="intro-btn" data-id="#intro">         <a href="#"><img src="assets/img/logo2.png"></a></li>            
+            <li id="contact-btn" data-id="#contact">    <a href="#">CONTACT</a>   </li> 
+            <li id="resume-btn">                        <a href="#">RESUME</a>    </li>                         
           </ul>                   
         </div>
     </nav>
@@ -54,7 +54,7 @@
       <div class="container">
         <div class="row">
 
-          <div id="about-body" class="col-md-9 col-md-offset-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien metus, efficitur at erat et, sagittis vulputate enim. Integer nec justo sed ipsum feugiat condimentum. Nulla erat enim, cursus quis ex quis, eleifend aliquet justo. Quisque vel sollicitudin nibh, vel tincidunt eros. Nam id accumsan urna, feugiat malesuada nibh. Integer venenatis sagittis elit eget vestibulum. Donec tellus nisl, consequat bibendum sem quis, interdum fringilla sem. Suspendisse risus turpis, molestie vitae tincidunt eu, vehicula id lorem. Duis et nisl arcu. Mauris eget mattis ex, a rutrum elit. Cras accumsan placerat sapien, quis vehicula urna. Etiam scelerisque laoreet dolor, ac pellentesque purus.
+          <div id="about-body" class="col-md-9 col-md-offset-1" data-text="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien metus, efficitur at erat et, sagittis vulputate enim. Integer nec justo sed ipsum feugiat condimentum. Nulla erat enim, cursus quis ex quis, eleifend aliquet justo. Quisque vel sollicitudin nibh, vel tincidunt eros. Nam id accumsan urna, feugiat malesuada nibh. Integer venenatis sagittis elit eget vestibulum. Donec tellus nisl, consequat bibendum sem quis, interdum fringilla sem. Suspendisse risus turpis, molestie vitae tincidunt eu, vehicula id lorem. Duis et nisl arcu. Mauris eget mattis ex, a rutrum elit. Cras accumsan placerat sapien, quis vehicula urna. Etiam scelerisque laoreet dolor, ac pellentesque purus.
           </div>  
 
           <div id="about-links" class="col-md-2">
@@ -140,15 +140,16 @@
 
     <div id="contact">
       <div class="center-block" style="text-align: center;">
-        <h2>Enough about me.</h1>      
+        <h2>Enough about me.</h2>      
         <h4>Tell me something about you, or anything else you may want to talk about.</h4>
-        <a href="mailto:saswata.gupta@uwaterloo.ca"><h1>saswata.gupta@uwaterloo.ca</h1></a>
-      </h2>
+        <a href="mailto:saswata.gupta@uwaterloo.ca"><h1 data-text="email">saswata.gupta@uwaterloo.ca</h1></a>      
+      </div>
     </div>
     
-    <script src="assets/js/jquery.min.js"></script> 
+    <script src="assets/js/jquery-3.1.0.min.js"></script> 
     <script src="assets/js/jquery-ui.js"></script>       
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/text/data.js"></script>
     <script src="assets/js/script.js"></script>
   </body>
 </html>
