@@ -1,5 +1,5 @@
 var data = {
-	about: "Hi, my name is Saswata (pronounced shashota), and I'm a developer that wants to change the world through code, eventually. Since that's a little out of reach right now, I'm just doing my best to get there any way I can, starting with a Bachelors of Software Engineering  I am and always will be an avid learner, having tinekrd with various areas of programming, such as android devellopment, machine learning, databases ans also intensly studied others such as web development, computer science and game deisgn, but as a programmer, I realise that I havn't even scraped the surface of what modern technology has to offer.",
+	about: "Hi, my name is Saswata (pronounced shashota), and I'm a developer that wants to change the world through code, eventually. Since that's a little out of reach right now, I'm just doing my best to get there any way I can, starting with a Bachelors of Software Engineering  I am and always will be an avid learner, having tinkered with various areas of programming, such as android development, machine learning, databases and also intensely studied others such as web development, computer science and game design, but as a programmer, I realise that I haven’t even scraped the surface of what modern technology has to offer.",
 
 	email: "saswata.gupta@uwaterloo.ca",
 
