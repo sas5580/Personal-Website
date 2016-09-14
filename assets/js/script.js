@@ -83,7 +83,7 @@ $(function(){
 		}).appendTo("#caption"+ind);
 
 		$('<p/>',{
-			"text": proj.description,
+			"html": proj.description,
 		}).appendTo("#caption"+ind);
 
 		$('<a/>',{
