@@ -79,7 +79,7 @@ $(function(){
 
 
 		$('<h3/>',{
-			"text": proj.name,
+			"html": proj.name,
 		}).appendTo("#caption"+ind);
 
 		$('<p/>',{
@@ -90,7 +90,7 @@ $(function(){
 			"class" : "btn btn-project btn-lg",
 			"href" : proj.link,
 			"target" : "_blank",
-			"text": "View",
+			"html": "View",
 		}).appendTo("#caption"+ind);
 	}
 	

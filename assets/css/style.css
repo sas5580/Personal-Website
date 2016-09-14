@@ -94,7 +94,9 @@
 }
 
 #logo-txt{	
-	height: 175px;	
+	max-height: 175px;	
+	height: auto;
+	max-width: 100%;
 	padding-top: 20px;
 }
 
@@ -120,6 +122,8 @@
 	border: 1px solid #ec494c;	
 	min-width: 180px;	
 	font-size: 25px;
+	float: right;
+	margin-bottom: 40px;
 }
 
 .btn-social:hover, .btn-social:focus{
@@ -153,7 +157,7 @@
 
 .carousel-caption {
 	height: 100%;
-	top: 15%;
+	top: 10%;
 }
 .carousel-caption>h3 {
 	text-transform: uppercase;
