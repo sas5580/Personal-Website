@@ -5,12 +5,20 @@ var data = {
 
 	projects: [
 		{
+			name: "NEAT snake AI",
+
+			description: "Developed with pure <b><i>Python3</i></b>, NEAT (NeuroEvolution of Augmenting Topologies) is a genetic algorithm for evolving a nerual network to perform a specific task. It alters weights and the structure of a neural network in a Darwinian manner and spits out the most fit contender. This library is able to train based on any numeraical inputs, outputs and a fitness function. <br> I decided to make it learn to play Snake, check it out below.",
+
+			link: "https://github.com/sas5580/NEAT",
+			img: "assets/img/science-bg.jpg",
+		},
+		{
 			name: "scavenger hunt",
 
 			description: "Developed with <b><i>Python</i></b>, <b><i>React</i></b>, and <b><i>Android</i></b>, Scavenger Hunt is a geolocation game where one can create a game with locations as objectives through a web interface. Users can then join the game through our mobile App and compete with each other to see who can reach all the objectives first. All data storage and logic is administered by a <b><i>Flask</i></b> server, which handles all the requests from both the app and the website.",
-			
+
 			link: "https://github.com/sas5580/ScavengerHunt-Server",
-			img: "assets/img/time-bg.jpg",			
+			img: "assets/img/time-bg.jpg",
 		},
 		{
 			name: "quest cabochon",
@@ -23,7 +31,7 @@ var data = {
 		{
 			name:"myusicality",
 
-			description: "Developed with <b><i>C++</i></b>, <b><i>Python</i></b>, and various libraries such as <b><i>matplotlib</i></b> and <b><i>pyo</i></b>, and the <b><i>Myo armband API</i></b>, Myusicality is a DJ simulator program that allows the user to mix music, of their choice, live using intricate gestures with the Myo armband. The control the user has over the music as it is playing ranges from blocking specific amounts of the low frequencies all the way to the high frequencies and an parts in between. The program also has a graphical user interface using Python 2 that displays the levels of the frequencies of the music playing in real time.",			
+			description: "Developed with <b><i>C++</i></b>, <b><i>Python</i></b>, and various libraries such as <b><i>matplotlib</i></b> and <b><i>pyo</i></b>, and the <b><i>Myo armband API</i></b>, Myusicality is a DJ simulator program that allows the user to mix music, of their choice, live using intricate gestures with the Myo armband. The control the user has over the music as it is playing ranges from blocking specific amounts of the low frequencies all the way to the high frequencies and an parts in between. The program also has a graphical user interface using Python 2 that displays the levels of the frequencies of the music playing in real time.",
 
 			link: "https://github.com/NathanJiangCS/MasseyHacks2",
 			img: "assets/img/bulb-bg.jpg",
